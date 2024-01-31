@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 ads.txt
+ #package-lock
+ yarn.lock
+ package-lock.json
