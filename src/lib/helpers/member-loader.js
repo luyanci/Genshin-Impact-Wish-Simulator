@@ -22,11 +22,9 @@ export const loadMembers = (f) => {
 
         lines.forEach((lineContent, idx) => {
             if (lineContent.trim() !== '') {
-                let arr = lineContent.split(' ');
                 data.push({
                     "name": `n-${idx}`,
-                    "chineseChar": arr.length == 2? arr[1].trim() : lineContent.trim(),
-                    "rarity": arr.length == 2 ? parseInt(arr[0]) : 3
+                    "chineseChar": lineContent.trim()
                 });
             }
         });
