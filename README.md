@@ -149,7 +149,7 @@ I'm welcome to all contributors! Feel free to [open new Issue](https://github.co
 
 ### Thank You to all Contributors
 
-[![Contributor](https://contrib.rocks/image?repo=Mantan21/Genshin-Impact-Wish-Simulator)](https://github.com/Mantan21/Genshin-Impact-Wish-Simulator/graphs/contributors)
+[![Contributor](https://contrib.rocks/image?repo=luyanci/Genshin-Impact-Wish-Simulator)](https://github.com/luyanci/Genshin-Impact-Wish-Simulator/graphs/contributors)
 
 > **Notes :**
 >
