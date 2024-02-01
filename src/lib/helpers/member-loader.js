@@ -22,7 +22,7 @@ export const loadMembers = (f) => {
 
         lines.forEach((lineContent, idx) => {
             if (lineContent.trim() !== '') {
-                let arr = lineContent.split(' ')
+                let arr = lineContent.split(' ');
                 data.push({
                     "name": `n-${idx}`,
                     "chineseChar": arr.length == 2? arr[1].trim() : lineContent.trim(),
