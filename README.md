@@ -3,6 +3,14 @@ Modified by cyanial | rebased by luyanci
 
 ![License](https://badgen.net/github/license/Mantan21/Genshin-Impact-Wish-Simulator?icon:github) ![Repo Size](https://img.shields.io/github/repo-size/Mantan21/Genshin-Impact-Wish-Simulator?color=fa0) [![CodeFactor](https://www.codefactor.io/repository/github/mantan21/genshin-impact-wish-simulator/badge)](https://www.codefactor.io/repository/github/Mantan21/genshin-impact-wish-simulator) ![Status](https://badgen.net/github/checks/Mantan21/Genshin-Impact-Wish-Simulator) ![Code Standard](https://badgen.net/badge/code%20style/standard/f2a) [![Trakteer](https://badgen.net/badge/Trakteer/Mantan21/BE1E2D)](https://trakteer.id/mantan21)
 
+netlify status:
+
+star:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ffee3df0-a1d0-488a-b820-9bae737e4cf8/deploy-status)](https://app.netlify.com/sites/genshin-picker/deploys)
+nostar:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6cd0fbc5-b04c-4798-840f-3ca6aa5e4855/deploy-status)](https://app.netlify.com/sites/genshin-picker-nostar/deploys)
+
+I'm not an expert, and I may not write the cleanest code, but I've tried to create this Genshin Impact Wish Simulator. I believe it's the most realistic one for the web version. However, I still need your feedback to improve the wishing experience. If you enjoy this simulator, please consider giving a star to this repository.
 I'm not an expert, and I may not write the cleanest code, but I've tried to create this Genshin Impact Wish Simulator. I believe it's the most realistic one for the web version. However, I still need your feedback to improve the wishing experience. If you enjoy this simulator, please consider giving a star to this repository.
 
 ## Screenshots
