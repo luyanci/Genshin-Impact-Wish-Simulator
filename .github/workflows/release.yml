@@ -15,10 +15,17 @@ on:
       - re-rebase
     paths:
       - src/*
+
 jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
+      - name: Get Current Time
+        run: |
+          TIME=$(date +"%Y-%m-%dT%H:%M:%SZ")
+          echo "TIME=$TIME" >> $GITHUB_ENV
+      - name: Print Time
+        run: echo The current time is ${{ env.TIME }}
       - uses: actions/checkout@v3
       - name: Use Node.js 16.x
         uses: actions/setup-node@v4
@@ -46,4 +53,9 @@ jobs:
         with:
           name: frontend
           path: ./frontend.zip
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+            tags: ${{ env.TIME }}
+            files: ./frontend.zip
       
