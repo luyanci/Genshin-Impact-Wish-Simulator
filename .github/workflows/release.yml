@@ -1,6 +1,7 @@
 name: Pages
 
 on:
+
  workflow_dispatch:
  workflow_call:
  pull_request:
@@ -9,7 +10,7 @@ on:
       - re-rebase
     paths:
       - src/*
-  push:
+ push:
     branches:
       - main # default branch
       - re-rebase
