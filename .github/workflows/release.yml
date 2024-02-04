@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Get Current Time
         run: |
-          TIME=$(date +"%Y-%m-%dT%H:%M:%SZ")
+          TIME=$(date +"%Y-%m-%dT%H:%M")
           echo "TIME=$TIME" >> $GITHUB_ENV
       - name: Print Time
         run: echo The current time is ${{ env.TIME }}
