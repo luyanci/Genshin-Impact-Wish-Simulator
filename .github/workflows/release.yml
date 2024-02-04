@@ -1,0 +1,49 @@
+name: Pages
+
+on:
+ workflow_dispatch:
+ workflow_call:
+ pull_request:
+    branches:
+      - main # default branch
+      - re-rebase
+    paths:
+      - src/*
+  push:
+    branches:
+      - main # default branch
+      - re-rebase
+    paths:
+      - src/*
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: "16"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-npm-frontend-cache
+          restore-keys: |
+            ${{ runner.os }}-npm-frontend-cache
+      - name: Install Dependencies
+        run: |
+         yarn install
+      - name: Build
+        run: |
+         yarn run build
+      - name: Package
+        run: |
+         7z a -tzip frontend.zip ./.vercel/output/static
+      - name: Upload
+        if: ${{github.event_name == 'pull_request'}}
+        uses: actions/upload-artifact@v3
+        with:
+          name: frontend
+          path: ./frontend.zip
+      
