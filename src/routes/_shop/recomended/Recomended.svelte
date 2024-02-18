@@ -35,9 +35,8 @@
 <NavlinkTop>
 	{#if newOutfit.length > 0}
 		{#each newOutfit as _, i}
-			{@const { name = '' } = newOutfit[i] || {}}
 			<NavlinkTopButton name="outfit" active={i === activeIndex} on:click={() => selectSubShop(i)}>
-				{$t('outfit.heading')}: {$t(`outfit.item.${name}.name`)}
+				{$t('outfit.heading')}
 			</NavlinkTopButton>
 		{/each}
 	{/if}
