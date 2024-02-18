@@ -11,7 +11,6 @@
 	export let custom = false;
 	export let vision = '';
 	export let artPosition = {};
-	export let rateup = [];
 
 	const imageError = getContext('imageError');
 </script>
@@ -30,7 +29,7 @@
 				class="art-bg"
 			/>
 			{#key artPosition}
-				<BannerArt artURL={src} bannerPosition={artPosition?.banner} {rateup} />
+				<BannerArt artURL={src} bannerPosition={artPosition?.banner} />
 			{/key}
 		{:else}
 			<div style="position: relative; width: 100%;">
