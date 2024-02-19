@@ -5018,7 +5018,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zoomist@^2.0.10:
-  version "2.0.10"
-  resolved "https://registry.npmjs.org/zoomist/-/zoomist-2.0.10.tgz"
-  integrity sha512-yiAM2q3DVGzhNlI00muDYNW+gfCHf64JYI5aCq4koiq6vdKSm+1P3/5GVpOko6FGltrZzocdLpBTm4McwDoO9Q==
+zoomist@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/zoomist/-/zoomist-2.0.11.tgz#3a419422546c8192a1643f6bf5eb90c461977d20"
+  integrity sha512-kE2ORk5gjdJq6/gv6xNcGHe6aV6hsVEzRAmXFgYBb5EXdw/8bClO6LYd3BDL4uOba1a94zjLcAXdUY1v/1KEAg==
