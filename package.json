@@ -24,7 +24,7 @@
 	"type": "module",
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "^1.0.0-next.66",
-		"@sveltejs/kit": "^1.15.2",
+		"@sveltejs/kit": "^1.0.0-next.551",
 		"autoprefixer": "^10.4.8",
 		"dotenv": "^16.3.1",
 		"eslint": "^8.56.0",
