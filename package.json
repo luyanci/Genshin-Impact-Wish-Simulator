@@ -53,7 +53,7 @@
 		"firebase": "^9.19.1",
 		"hotkeys-js": "^3.12.0",
 		"howler": "^2.2.3",
-		"html-to-image": "^1.8.5",
+		"html-to-image": "^1.11.11",
 		"idb": "^6.1.2",
 		"overlayscrollbars": "^1.13.1",
 		"svelte-i18n": "^3.4.0",
