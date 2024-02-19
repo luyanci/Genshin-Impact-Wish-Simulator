@@ -3072,10 +3072,10 @@ hotkeys-js@^3.12.0:
   resolved "https://registry.npmjs.org/hotkeys-js/-/hotkeys-js-3.12.0.tgz"
   integrity sha512-Z+N573ycUKIGwFYS3ID1RzMJiGmtWMGKMiaNLyJS8B1ei+MllF4ZYmKS2T0kMWBktOz+WZLVNikftEgnukOrXg==
 
-howler@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.npmjs.org/howler/-/howler-2.2.3.tgz"
-  integrity sha512-QM0FFkw0LRX1PR8pNzJVAY25JhIWvbKMBFM4gqk+QdV+kPXOhleWGCB6AiAF/goGjIHK2e/nIElplvjQwhr0jg==
+howler@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.2.4.tgz#bd3df4a4f68a0118a51e4bd84a2bfc2e93e6e5a1"
+  integrity sha512-iARIBPgcQrwtEr+tALF+rapJ8qSc+Set2GJQl7xT1MQzWaVkFebdJhR3alVlSiUf5U7nAANKuj3aWpwerocD5w==
 
 html-to-image@^1.8.5:
   version "1.9.0"
