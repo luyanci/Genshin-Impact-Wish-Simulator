@@ -44,7 +44,7 @@
 		"vite-plugin-markdown": "^2.2.0",
 		"vite-plugin-pwa": "^0.13.1",
 		"workbox-cacheable-response": "^6.5.4",
-		"workbox-core": "^6.5.4",
+		"workbox-core": "^7.0.0",
 		"workbox-precaching": "^6.5.4",
 		"workbox-routing": "^6.5.4"
 	},
