@@ -26,7 +26,7 @@
 		"@sveltejs/adapter-vercel": "^1.0.0-next.66",
 		"@sveltejs/kit": "^1.0.0-next.551",
 		"autoprefixer": "^10.4.8",
-		"dotenv": "^16.3.1",
+		"dotenv": "^16.4.5",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
