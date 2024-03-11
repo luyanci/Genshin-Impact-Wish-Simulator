@@ -104,29 +104,29 @@
 		</ShopGroupItem>
 	</ShopGroup>
 	<!-- List Of Supporters -->
-        <div class="recent">
-                {#await supporterList() then listOfSupporters}
-                        {#if listOfSupporters.length > 0}
-                                {#each listOfSupporters as { name, message, amount, date, type }}
-                                        {@const platform =
-                                                type === 'tip' ? 'trakteer' : type === 'donation' ? 'saweria' : 'ko-fi'}
-                                        <div class="donation-item {platform}" in:fade={{ duration: 300 }}>
-                                                <div class="supporter">
-                                                        <div class="info">
-                                                                <div class="name">New support from <span> {name} </span></div>
-                                                                <span class="message">{message ? `"${message}"` : ''}</span>
-                                                                <span class="platform">✧ &nbsp; via {platform}</span>
-                                                                <span class="time"> ✧ &nbsp; {timeAgo(date)}</span>
-                                                        </div>
-                                                        <div class="amount">
-                                                                <span>{amount}</span>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                {/each}
-                        {/if}
-                {/await}
-        </div>
+  <	<div class="recent">
+		{#await supporterList() then listOfSupporters}
+			{#if listOfSupporters.length > 0}
+				{#each listOfSupporters as { name, message, amount, date, type }}
+					{@const platform =
+						type === 'tip' ? 'trakteer' : type === 'donation' ? 'saweria' : 'ko-fi'}
+					<div class="donation-item {platform}" in:fade={{ duration: 300 }}>
+						<div class="supporter">
+							<div class="info">
+								<div class="name">New support from <span> {name} </span></div>
+								<span class="message">{message ? `"${message}"` : ''}</span>
+								<span class="platform">✧ &nbsp; via {platform}</span>
+								<span class="time"> ✧ &nbsp; {timeAgo(date)}</span>
+							</div>
+							<div class="amount">
+								<span>{amount}</span>
+							</div>
+						</div>
+					</div>
+				{/each}
+			{/if}
+		{/await}
+	</div>
 </div>
 
 </div>
