@@ -104,7 +104,7 @@
 		</ShopGroupItem>
 	</ShopGroup>
 	<!-- List Of Supporters -->
-  <	<div class="recent">
+  <div class="recent">
 		{#await supporterList() then listOfSupporters}
 			{#if listOfSupporters.length > 0}
 				{#each listOfSupporters as { name, message, amount, date, type }}
