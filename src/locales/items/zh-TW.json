@@ -11,6 +11,7 @@
 	"calamity-queller": "息災",
 	"cashflow-supervision": "金流監督",
 	"cool-steel": "冷刃",
+	"cranes-echoing-call": "鶴鳴餘音",
 	"debate-club": "以理服人",
 	"dragon_s-bane": "匣裡滅辰",
 	"elegy-for-the-end": "終末嗟嘆之詩",
@@ -81,6 +82,7 @@
 	"thundering-pulse": "飛雷之弦振",
 	"tome-of-the-eternal-flow": "久遠龍天百科全書",
 	"tulaytullah_s-remembrance": "圖萊拉拉的回憶",
+	"uraku-misugiri": "有樂御簾切",
 	"verdict": "裁斷",
 	"vortex-vanquisher": "貫虹之槊",
 	"wavebreaker_s-fin": "斷浪長鰭",
@@ -127,6 +129,14 @@
 	"charlotte": {
 		"name": "夏洛蒂",
 		"title": "朗鏡索真"
+	},
+	"chevreuse": {
+		"name": "夏沃蕾",
+		"title": "明律決罰"
+	},
+	"chiori": {
+		"name": "千織",
+		"title": "鳴雷的裁錦師"
 	},
 	"chongyun": {
 		"name": "重雲",
@@ -175,6 +185,10 @@
 	"furina": {
 		"name": "芙寧娜",
 		"title": "不休獨舞"
+	},
+	"gaming": {
+		"name": "嘉明",
+		"title": "駿猊頕首"
 	},
 	"ganyu": {
 		"name": "甘雨",
@@ -343,6 +357,10 @@
 	"xiangling": {
 		"name": "香菱",
 		"title": "萬民百味"
+	},
+	"xianyun": {
+		"name": "閒雲",
+		"title": "鸞音鶴信"
 	},
 	"xiao": {
 		"name": "魈",

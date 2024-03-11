@@ -1,6 +1,26 @@
 {
 	"data": [
 		{
+			"itemID": 169,
+			"name": "uraku-misugiri",
+			"rarity": 5,
+			"weaponType": "sword",
+			"limited": true,
+			"offset": {
+				"button": { "t": -15, "w": 90, "l": 30 }
+			}
+		},
+		{
+			"itemID": 167,
+			"name": "cranes-echoing-call",
+			"rarity": 5,
+			"weaponType": "catalyst",
+			"limited": true,
+			"offset": {
+				"button": { "t": 1, "w": 70, "l": 38 }
+			}
+		},
+		{
 			"itemID": 163,
 			"name": "verdict",
 			"rarity": 5,

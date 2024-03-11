@@ -19,6 +19,8 @@ export const itemList = () => {
 			pathList[`face/${keyNoExt}`] = src;
 		} else if (key.match(/splash-art/)) {
 			pathList[`splash-art/${keyNoExt}`] = src;
+		} else if (key.match(/art-nobg/)) {
+			pathList[`nobg/${keyNoExt}`] = src;
 		} else if (key.match(/banner-button/)) {
 			pathList[`button/${keyNoExt}`] = src;
 		} else if (key.match(/thumbnail/)) {
@@ -74,13 +76,13 @@ const images = [
 			'genesis-bg.webp',
 			'genesis.webp',
 			'history-select-bg.webp',
-			'imbroke.webp',
 			'intertwined-fate.webp',
 			'modal-bg-icon.png',
 			'payment-childe.webp',
 			'payment-tears.webp',
 			'payment-wakaranai.webp',
 			'primogem.webp',
+			'qiqi.webp',
 			'shop-nav-bg.webp',
 			'welkin-card.webp',
 			'welkin-moon-girl.webp',

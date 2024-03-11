@@ -4,7 +4,7 @@
 	import { imageCDN } from '$lib/helpers/assets';
 	import { lazyLoad } from '$lib/helpers/lazyload';
 	import { timeAgo } from '$lib/helpers/timeago';
-	import { onlineBanner } from '$lib/helpers/custom-banner';
+	import { onlineBanner } from '$lib/helpers/banner-custom';
 	import ButtonGeneral from '$lib/components/ButtonGeneral.svelte';
 	import Pagination from '../_gachainfo/history/_pagination.svelte';
 
@@ -30,18 +30,28 @@
 		return result;
 	};
 
-	onMount(async () => {
+	const loadBanners = async () => {
 		try {
 			const request = await fetch(API_HOST + '/storage');
 			const { success, data = [] } = await request.json();
 			if (!success) return;
-			customList = data.sort(({ lastModified: a }, { lastModified: b }) => {
-				return new Date(b) - new Date(a);
-			});
+			// customList = data.sort(({ lastModified: a }, { lastModified: b }) => {
+			// 	return new Date(b) - new Date(a);
+			// });
+			const dataToShow = data.filter(({ bannerName }) => bannerName);
+			customList = window._.orderBy(dataToShow, ['lastModified'], ['desc']);
 		} catch (e) {
 			console.error(e);
 			customList = [];
 		}
+	};
+
+	onMount(() => {
+		const lodash = document.createElement('script');
+		lodash.src = 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js';
+		document.head.append(lodash);
+
+		lodash.onload = loadBanners;
 	});
 </script>
 

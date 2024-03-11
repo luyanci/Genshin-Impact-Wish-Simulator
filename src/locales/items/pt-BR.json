@@ -11,6 +11,7 @@
 	"calamity-queller": "Subjugadora de Calamidades",
 	"cashflow-supervision": "Supervisão de Caixa",
 	"cool-steel": "Lâmina Fria",
+	"cranes-echoing-call": "Chamado Ecoante da Garça",
 	"debate-club": "Pacifista",
 	"dragon_s-bane": "Perdição do Dragão",
 	"elegy-for-the-end": "Elegia do Suspiro Final",
@@ -81,6 +82,7 @@
 	"thundering-pulse": "Agitação Trovejante",
 	"tome-of-the-eternal-flow": "Rito do Fluxo Eterno",
 	"tulaytullah_s-remembrance": "Reminiscências de Tulaytullah",
+	"uraku-misugiri": "Urakugo Rensai",
 	"verdict": "Veredito",
 	"vortex-vanquisher": "Perfuradora Prismática",
 	"wavebreaker_s-fin": "Barbatana do Quebra Ondas",
@@ -127,6 +129,14 @@
 	"charlotte": {
 		"name": "Charlotte",
 		"title": "Lentes em Busca da Verdade"
+	},
+	"chevreuse": {
+		"name": "Chevreuse",
+		"title": "Executora da Justiça"
+	},
+	"chiori": {
+		"name": "Chiori",
+		"title": "Costureira Trovejante"
 	},
 	"chongyun": {
 		"name": "Chongyun",
@@ -175,6 +185,10 @@
 	"furina": {
 		"name": "Furina",
 		"title": "Dançarina Solitária Eterna"
+	},
+	"gaming": {
+		"name": "Gaming",
+		"title": "Olhar Leonino"
 	},
 	"ganyu": {
 		"name": "Ganyu",
@@ -343,6 +357,10 @@
 	"xiangling": {
 		"name": "Xiangling",
 		"title": "Mestre de Culinária de Liyue"
+	},
+	"xianyun": {
+		"name": "Xianyun",
+		"title": "Mensageira Celestial"
 	},
 	"xiao": {
 		"name": "Xiao",

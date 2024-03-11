@@ -11,6 +11,7 @@
 	"calamity-queller": "息災",
 	"cashflow-supervision": "凛流の監視者",
 	"cool-steel": "冷刃",
+	"cranes-echoing-call": "鶴鳴の余韻",
 	"debate-club": "理屈責め",
 	"dragon_s-bane": "匣中滅龍",
 	"elegy-for-the-end": "終焉を嘆く詩",
@@ -81,6 +82,7 @@
 	"thundering-pulse": "飛雷の鳴弦",
 	"tome-of-the-eternal-flow": "久遠流転の大典",
 	"tulaytullah_s-remembrance": "トゥライトゥーラの記憶",
+	"uraku-misugiri": "有楽御簾切",
 	"verdict": "裁断",
 	"vortex-vanquisher": "破天の槍",
 	"wavebreaker_s-fin": "斬波のひれ長",
@@ -127,6 +129,14 @@
 	"charlotte": {
 		"name": "シャルロット",
 		"title": "真実を求める曇りなきモノクル"
+	},
+	"chevreuse": {
+		"name": "シュヴルーズ",
+		"title": "厳罰を与える法の通暁者"
+	},
+	"chiori": {
+		"name": "千織",
+		"title": "雷鳴の裁錦師"
 	},
 	"chongyun": {
 		"name": "重雲",
@@ -175,6 +185,10 @@
 	"furina": {
 		"name": "フリーナ",
 		"title": "不休のソリスト"
+	},
+	"gaming": {
+		"name": "嘉明",
+		"title": "頭角を現す駿猊"
 	},
 	"ganyu": {
 		"name": "甘雨",
@@ -343,6 +357,10 @@
 	"xiangling": {
 		"name": "香菱",
 		"title": "万民百味"
+	},
+	"xianyun": {
+		"name": "閑雲",
+		"title": "仙鶴の告げる佳音"
 	},
 	"xiao": {
 		"name": "魈",

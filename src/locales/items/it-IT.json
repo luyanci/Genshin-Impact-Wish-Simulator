@@ -11,6 +11,7 @@
 	"calamity-queller": "Flagello delle calamità",
 	"cashflow-supervision": "Supervisione pecuniaria",
 	"cool-steel": "Lama fredda",
+	"cranes-echoing-call": "Canto della gru echeggiante",
 	"debate-club": "Mazza della persuasione",
 	"dragon_s-bane": "Scacciadraghi",
 	"elegy-for-the-end": "Elegia finale",
@@ -81,6 +82,7 @@
 	"thundering-pulse": "Battito tonante",
 	"tome-of-the-eternal-flow": "Tomo del flusso perenne",
 	"tulaytullah_s-remembrance": "Rimembranza di Tulaytullah",
+	"uraku-misugiri": "Uraku Misugiri",
 	"verdict": "Verdetto",
 	"vortex-vanquisher": "Squarciavortice",
 	"wavebreaker_s-fin": "Pinna del Frangionde",
@@ -127,6 +129,14 @@
 	"charlotte": {
 		"name": "Charlotte",
 		"title": "Lente della verità"
+	},
+	"chevreuse": {
+		"name": "Chevreuse",
+		"title": "Braccio armato della legge"
+	},
+	"chiori": {
+		"name": "Chiori",
+		"title": "Sarta tonante"
 	},
 	"chongyun": {
 		"name": "Chongyun",
@@ -175,6 +185,10 @@
 	"furina": {
 		"name": "Furina",
 		"title": "Assolo solitario e sempiterno"
+	},
+	"gaming": {
+		"name": "Gaming",
+		"title": "Avanguardia leonina"
 	},
 	"ganyu": {
 		"name": "Ganyu",
@@ -343,6 +357,10 @@
 	"xiangling": {
 		"name": "Xiangling",
 		"title": "Maestra culinaria di Liyue"
+	},
+	"xianyun": {
+		"name": "Xianyun",
+		"title": "Messaggera gruiforme"
 	},
 	"xiao": {
 		"name": "Xiao",

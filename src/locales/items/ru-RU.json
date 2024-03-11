@@ -11,6 +11,7 @@
 	"calamity-queller": "Усмиритель бед",
 	"cashflow-supervision": "Казначейский надзор",
 	"cool-steel": "Холодное лезвие",
+	"cranes-echoing-call": "Звонкий клич журавля",
 	"debate-club": "Дубина переговоров",
 	"dragon_s-bane": "Гроза драконов",
 	"elegy-for-the-end": "Элегия погибели",
@@ -81,6 +82,7 @@
 	"thundering-pulse": "Громовой пульс",
 	"tome-of-the-eternal-flow": "Обряд вечного течения",
 	"tulaytullah_s-remembrance": "Воспоминания Тулайтуллы",
+	"uraku-misugiri": "Ураку мисугири",
 	"verdict": "Вердикт",
 	"vortex-vanquisher": "Покоритель вихря",
 	"wavebreaker_s-fin": "Режущий волны плавник",
@@ -127,6 +129,14 @@
 	"charlotte": {
 		"name": "Шарлотта",
 		"title": "Объективная реальность"
+	},
+	"chevreuse": {
+		"name": "Шеврёз",
+		"title": "Вершитель правосудия"
+	},
+	"chiori": {
+		"name": "Тиори",
+		"title": "Громоподобная закройщица"
 	},
 	"chongyun": {
 		"name": "Чун Юнь",
@@ -175,6 +185,10 @@
 	"furina": {
 		"name": "Фурина",
 		"title": "Бесконечный танец одиночества"
+	},
+	"gaming": {
+		"name": "Ка Мин",
+		"title": "Львиный авангард"
 	},
 	"ganyu": {
 		"name": "Гань Юй",
@@ -343,6 +357,10 @@
 	"xiangling": {
 		"name": "Сян Лин",
 		"title": "Миллион вкусов"
+	},
+	"xianyun": {
+		"name": "Сянь Юнь",
+		"title": "Вестница небес"
 	},
 	"xiao": {
 		"name": "Сяо",

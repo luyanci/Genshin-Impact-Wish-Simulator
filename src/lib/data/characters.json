@@ -2,6 +2,50 @@
 	"onlyStandard": ["amber", "kaeya", "lisa"],
 	"data": [
 		{
+			"itemID": 168,
+			"name": "chiori",
+			"vision": "geo",
+			"rarity": 5,
+			"offset": {
+				"splashArt": { "x": -0.1204644412191582, "y": -2.7576197387518144, "scale": 1.35 },
+				"wishCard": { "x": 5.630053908355795, "y": 62.905660377358494, "scale": 10.69 },
+				"button": { "l": 50, "w": 105, "t": 25 }
+			}
+		},
+		{
+			"itemID": 166,
+			"name": "gaming",
+			"vision": "pyro",
+			"rarity": 4,
+			"release": "4.4-1",
+			"offset": {
+				"splashArt": { "x": 3.1118598382749325, "y": 2.095687331536388, "scale": 1.32 },
+				"wishCard": { "x": 39.35256861365236, "y": 54.08866995073891, "scale": 11.51 }
+			}
+		},
+		{
+			"itemID": 165,
+			"name": "xianyun",
+			"vision": "anemo",
+			"rarity": 5,
+			"offset": {
+				"splashArt": { "x": -3.095687331536388, "y": 2.7439353099730455, "scale": 1.64 },
+				"wishCard": { "x": -52.757624398073844, "y": 77.34831460674158, "scale": 14.35 },
+				"button": { "l": 50, "w": 125, "t": 25 }
+			}
+		},
+		{
+			"itemID": 164,
+			"name": "chevreuse",
+			"vision": "pyro",
+			"rarity": 4,
+			"release": "4.3-2",
+			"offset": {
+				"splashArt": { "x": -0.49195710455764075, "y": -10.837801608579088, "scale": 1.09 },
+				"wishCard": { "x": 7.69894534995206, "y": 21.16331096196868, "scale": 7.91 }
+			}
+		},
+		{
 			"itemID": 162,
 			"name": "navia",
 			"vision": "geo",
