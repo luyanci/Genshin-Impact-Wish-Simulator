@@ -6,7 +6,7 @@
     "distDir": "../.vercel/output/static"
   },
   "package": {
-    "productName": "genish-picker",
+    "productName": "genish-impact",
     "version": "0.1.0"
   },
   "tauri": {
