@@ -129,7 +129,6 @@
 	</div>
 </div>
 
-</div>
 
 <style>
 	/* Donate */
