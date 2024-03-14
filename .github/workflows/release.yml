@@ -6,8 +6,8 @@ on:
  workflow_call:
  pull_request:
     branches:
-      - main # default branch
-      - re-rebase
+      - nostar # default branch
+      - 1main
     paths:
       - src/*
  push:
