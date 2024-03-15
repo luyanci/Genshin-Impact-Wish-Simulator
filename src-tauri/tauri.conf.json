@@ -1,12 +1,13 @@
 {
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
-    "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
-    "devPath": "http://localhost:1420",
+    "beforeDevCommand": "npm run dev",
+    "devPath": "http://localhost:8080",
     "distDir": "../.vercel/output/static"
   },
   "package": {
-    "productName": "genish-impact",
+    "productName": "genish-picker",
     "version": "0.1.0"
   },
   "tauri": {
@@ -23,27 +24,54 @@
         "setFullscreen": true
       }
     },
-    "windows": [
-      {
-        "title": "tauri-app",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "security": {
-      "csp": null
-    },
     "bundle": {
       "active": true,
-      "targets": "all",
-      "identifier": "com.genshin.picker",
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
         "icons/128x128@2x.png",
         "icons/icon.icns",
         "icons/icon.ico"
-      ]
-    }
+      ],
+      "identifier": "genshin",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 1000,
+        "decorations": true,
+        "resizable": true,
+        "title": "Genshin-picker",
+        "width": 1600
+      }
+    ]
   }
 }
