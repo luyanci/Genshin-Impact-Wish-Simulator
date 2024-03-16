@@ -24,7 +24,8 @@ export const loadMembers = (f) => {
             if (lineContent.trim() !== '') {
                 data.push({
                     "name": `n-${idx}`,
-                    "chineseChar": lineContent.trim()
+                    "chineseChar": arr.length == 2? arr[1].trim() : lineContent.trim(),
+                    "rarity": arr.length == 2 ? parseInt(arr[0]) : 3
                 });
             }
         });
