@@ -49,10 +49,12 @@
 	const navigate = getContext('navigate');
 
 	const previousClick = () => {
-		// navigate('allbanners');
-		// playSfx();
+		navigate('allbanners');
+		playSfx();
 	};
-
+	const closewindows = () => {
+		window.close()
+	};
 	const handleMenu = getContext('handleMenu');
 	$: headerHeightstyle = $mobileMode ? `height: ${$viewportHeight}px` : '';
 	$: fullscreen = $viewportHeight === window.screen.height;
